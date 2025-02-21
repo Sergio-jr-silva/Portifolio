@@ -1,0 +1,69 @@
+.about-section {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+    color: #ff7b00;
+    margin-bottom: 1rem;
+  }
+  
+  .about-description {
+    font-size: 1.1rem;
+    color: #ccc;
+  }
+  
+  .about-line {
+    width: 100px;
+    height: 3px;
+    background-color: #ff7b00;
+    margin: 1.5rem auto;
+  }
+  
+  .tech-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  .tech-card {
+    background-color: #2a2a2a;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(255, 123, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    width: 110px; /* Definir largura fixa para manter os cards do mesmo tamanho */
+    height: 120px; /* Altura fixa para uniformizar os cards */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .tech-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .tech-image {
+    width: 60px; /* Tamanho fixo para todas as imagens */
+    height: 60px; /* Tamanho fixo para manter proporção */
+    object-fit: contain;
+    margin-bottom: 0.5rem;
+  }
+  
+  .tech-name {
+    font-size: 0.9rem;
+    color: #ddd;
+  }
+  
