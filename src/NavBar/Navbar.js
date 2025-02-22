@@ -27,7 +27,7 @@ export default function Navbar() {
           <li><a href="#inicio" className="menu-item">Início</a></li>
           <li><a href="#sobre" className="menu-item">Sobre</a></li>
           <li><a href="#projetos" className="menu-item">Projetos</a></li>
-          <li><a href="#contato" className="menu-item">Contato</a></li>
+          <li><a href="#contato" className="menu-item">Contatos</a></li>
         </ul>
       </div>
     </nav>

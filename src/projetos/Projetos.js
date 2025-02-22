@@ -1,6 +1,7 @@
 import "./Projetos.css";
 import ProjetoTintas from '../images/ProjetoTintas.png';
 import gilsonshop from '../images/gilsonshop.png';
+import Construção from '../images/construcao.png';
 export default function Projeto() {
   const projects = [
     {
@@ -14,19 +15,19 @@ export default function Projeto() {
       name: "Website GS Pinturas & Serviços",
       image: gilsonshop,
       description:
-        "Aplicação para gerenciamento de estoque, com controle de entradas e saídas de produtos, relatórios detalhados e integração com APIs externas.",
+        "Website desenvolvido em ReactJS para a empresa GS Pinturas e Serviços focada em destacar os serviços de pintura e manutenção com um design moderno, responsivo e cheio de personalidade.",
       technologies: ["React.js", "TypeScript", "JavaScript"],
     },
     {
-      name: "Dashboard de Monitoramento",
-      image: "/images/dashboard.png",
+      name: "Em Construção",
+      image: Construção,
       description:
-        "Dashboard interativo para monitoramento de métricas de desempenho, gráficos dinâmicos e exportação de relatórios em tempo real.",
-      technologies: ["React.js", "Node.js", "JavaScript"],
+        "Projeto Em Fase de Desenvolvimento 🎨🛠️ .",
+      technologies: [ "indefined"],
     },
   ];
 
-  // Cores para os spans das tecnologias
+ 
   const techColors = {
     "C#": "#68217a",
     ".NET": "#512bd4",
@@ -35,11 +36,12 @@ export default function Projeto() {
     "Node.js": "#83cd29",
     "JavaScript": "#f7df1e",
     "TypeScript": "#3178c6",
-    "Railway": "#5505c5"
+    "Railway": "#5505c5",
+    "indefined": "#990cs2"
   };
 
   return (
-    <section className="projects-section">
+    <section className="projects-section" id="projetos">
       <h2 className="projects-title">
         <span className="line"></span> Projetos <span className="line"></span>
       </h2>

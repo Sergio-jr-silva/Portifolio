@@ -17,11 +17,11 @@ export default function Sobre() {
   ];
 
   return (
-    <section className="about-section">
+    <section className="about-section" id="sobre">
       <div className="about-content">
         <h2 className="about-title">Sobre mim</h2>
         <p className="about-description">
-          Apaixonado por desenvolvimento de software e especialista em Back-End, 
+          Apaixonado por desenvolvimento de software, 
           com sólida experiência em criação de soluções robustas e escaláveis que 
           otimizam processos e impulsionam o desempenho organizacional. Meu foco 
           está em entregar sistemas confiáveis e eficientes que atendam às 

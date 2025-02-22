@@ -4,7 +4,7 @@ import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 
 export default function Main() {
   return (
-    <main className="main-section">
+    <main className="main-section" id="inicio">
       <div className="overlay">
         <p>Olá, Visitante! 👋</p>
         <h1>Meu Nome é Sérgio Silva</h1>
